@@ -8,6 +8,5 @@ X, y = iris.data, iris.target
 model = RandomForestClassifier()
 model.fit(X, y)
 
-
 # Save model
 joblib.dump(model, "iris_model.pkl")
